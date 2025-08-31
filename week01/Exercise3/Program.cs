@@ -24,7 +24,7 @@ class Program
                 Console.WriteLine("You guessed it!");
             }
         */
-
+        // part 3
         Random randomGenerator = new Random();
         int number = randomGenerator.Next(1, 100);
         Console.Write("What is your guess? ");
