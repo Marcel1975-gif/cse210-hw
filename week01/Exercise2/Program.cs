@@ -76,9 +76,9 @@ Console.WriteLine($"Your grade is: {letter}");
 
 if (percentage >= 70)
 {
-    Console.WriteLine("Congratulations! You passed the class!");
+    Console.WriteLine("Congratulations! You have passed!");
 }
 else
 {
-    Console.WriteLine("Better luck next time.");
+    Console.WriteLine("Sorry! You need to study a little more.");
 }
