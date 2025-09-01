@@ -4,7 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        int item;
+        int item = 0;
         List<int> numbers = new List<int>();
 
 
