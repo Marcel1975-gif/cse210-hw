@@ -9,19 +9,16 @@ class Program
 
 
 
-        while (item != 0)
-        {
+        
+        
             Console.Write("Enter a number or type [0] to scape: ");
             item = int.Parse(Console.ReadLine());
-            if (item != 0)
+            while (item != 0)
             {
                 numbers.Add(item);
             }
-            else
-            {
-                break;
-            }
-        }
+            
+        
     }
 
 }
