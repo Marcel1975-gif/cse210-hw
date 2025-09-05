@@ -55,7 +55,7 @@ class Program
         Console.WriteLine($"The largest is: {maximum}");
 
         //smallest number
-        smallest = numbers[0];
+       
         foreach (int number in numbers)
         {
             if (number < smallest && number > 0)
@@ -63,7 +63,7 @@ class Program
                 smallest = number;
             }
         }
-        Console.WriteLine($"The smallest is: {smallest}");
+        Console.WriteLine($"The smallest positive number is: {smallest}");
 
         //sorted list
         numbers.Sort();
