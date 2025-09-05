@@ -7,7 +7,7 @@ class Program
         int item = 0;
         List<int> numbers = new List<int>();
 
-        Console.Write("Enter a list of number or type [0] to finish: ");
+        Console.WriteLine("Enter a list of number or type [0] to finish: ");
         do
         {
 
@@ -27,6 +27,7 @@ class Program
         float cont = 0;
         float media = 0;
         float maximum = 0;
+        float smallest = 0;
 
 
         // sum of the numbers
@@ -53,8 +54,26 @@ class Program
         }
         Console.WriteLine($"The largest is: {maximum}");
 
+        //smallest number
+        smallest = numbers[0];
+        foreach (int number in numbers)
+        {
+            if (number < smallest && number > 0)
+            {
+                smallest = number;
+            }
+        }
+        Console.WriteLine($"The smallest is: {smallest}");
 
-        
+        //sorted list
+        numbers.Sort();
+        Console.WriteLine("The sorted list is: ");
+        foreach (int number in numbers)
+        {
+            
+                Console.WriteLine(number);
+            
+        }
 
     }
 
