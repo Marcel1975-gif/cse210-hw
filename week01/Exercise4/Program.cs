@@ -23,8 +23,8 @@ class Program
         {
             Console.WriteLine(numbers[i]);
         }
-        int cont = 0;
-        int media = 0;
+        float cont = 0;
+        float media = 0;
         foreach (int number in numbers)
         {
             cont = cont + number;
