@@ -49,8 +49,8 @@ class Program
             {
                 maximum = number;
             }
-        }       
-        Console.WriteLine($"The maximum is: {maximum}");
+        }
+        Console.WriteLine($"The largest is: {maximum}");
 
 
     }
