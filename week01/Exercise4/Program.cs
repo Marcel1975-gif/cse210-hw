@@ -7,10 +7,11 @@ class Program
         int item = 0;
         List<int> numbers = new List<int>();
 
+        Console.Write("Enter a list of number or type [0] to finish: ");
         do
         {
 
-            Console.Write("Enter a list of number or type [0] to finish: ");
+            Console.Write("Enter number: ");
             item = int.Parse(Console.ReadLine());
 
 
@@ -52,6 +53,8 @@ class Program
         }
         Console.WriteLine($"The largest is: {maximum}");
 
+
+        
 
     }
 
