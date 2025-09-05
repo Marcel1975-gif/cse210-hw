@@ -24,11 +24,16 @@ class Program
             Console.WriteLine(numbers[i]);
         }
         int cont = 0;
+        int media = 0;
         foreach (int number in numbers)
         {
             cont = cont + number;
         }
         Console.WriteLine($"The sum is: {cont}");
+        media = cont / (numbers.Count - 1);
+        Console.WriteLine($"The average is: {media}");
+
+
     }
 
 }
