@@ -18,7 +18,7 @@ class Program
 
         Console.WriteLine($"Hello {name}, the square of your number is {square}.");
 
-
+    }
 
 
         // Function to display welcome message
@@ -56,15 +56,5 @@ class Program
         {
             return number * number;
         }
-
-    }
-
-
-    
-
-
-
-
-
 
 }
