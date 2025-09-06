@@ -4,14 +4,14 @@ class Program
 {
     static void Main(string[] args)
     {
-
+        DisplayWelcomeMessage();
         string name = EnterName();
         int age = EnterAge();
         int number = EnterFavoriteNumber();
         int square = Square(number);
 
 
-        DisplayWelcomeMessage();
+       
         EnterName();
         EnterAge();
         EnterFavoriteNumber();
