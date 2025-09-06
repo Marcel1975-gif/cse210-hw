@@ -4,6 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
+        //variables
+        
         int item = 0;
         List<int> numbers = new List<int>();
 
