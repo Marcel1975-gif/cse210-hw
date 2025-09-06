@@ -10,13 +10,7 @@ class Program
         int number = EnterFavoriteNumber();
         int square = Square(number);
 
-
-       
-        EnterName();
-        EnterAge();
-        EnterFavoriteNumber();
-
-        Console.WriteLine($"Hello {name}, the square of your number is {square}.");
+        Console.WriteLine($"{name}, the square of your number is {square}.");
 
     }
 
