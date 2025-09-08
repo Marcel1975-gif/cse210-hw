@@ -18,13 +18,15 @@ class Program
         job2._startYear = 2024;
         job2._endYear = 2025;
 
-        job1.DisplayJobDetails();
-        job2.DisplayJobDetails();
+        //job1.DisplayJobDetails();
+        //job2.DisplayJobDetails();
 
         Resume myResume = new Resume();
-        myResume._name = "John Doe";
+        myResume._name = "Marcelo Candido";
+
         myResume._jobs.Add(job1);
         myResume._jobs.Add(job2);
+
         myResume.DisplayResume();
         
 
