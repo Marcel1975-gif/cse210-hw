@@ -8,5 +8,10 @@ public class Job
     public int _endYear;
 
 
+public void DisplayJobDetails()
+    {
+        Console.WriteLine($"{_jobTitle} at {_company} ({_startYear} - {_endYear})");
+    }
+
 }
 
