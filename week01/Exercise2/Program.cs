@@ -30,7 +30,44 @@ class Program
         {
             letter_grade = "F";
         }
-        Console.WriteLine($"Your letter grade is: {letter_grade}");
+
+        int second_digit = grade % 10;
+        string sign_grade = "";
+
+        if (grade >= 90)
+        {
+            if (second_digit >= 3)
+            {
+                sign_grade = " ";
+            }
+            else 
+            {
+                sign_grade = "-";
+            }
+        }
+        else if (grade >= 60 && grade < 90)
+        {
+            if (second_digit >= 7)
+            {
+                sign_grade = "+";
+            }
+            else if (second_digit >= 3 && second_digit < 7)
+            {
+                sign_grade = " ";
+            }
+            else
+            {
+                sign_grade = "-";
+            }
+        }
+        else
+        {
+            sign_grade = " ";
+        }
+
+
+
+        Console.WriteLine($"Your letter grade is: {letter_grade} {sign_grade}");
         if (grade >= 70)
         {
             Console.WriteLine("Congratulations! You passed the course!");
